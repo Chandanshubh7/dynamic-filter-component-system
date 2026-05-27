@@ -1,0 +1,40 @@
+{
+  "name": "dynamic-filter-component-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n web,api -c blue,green \"npm:dev:web\" \"npm:dev:api\"",
+    "dev:web": "vite",
+    "dev:api": "node scripts/mock-api.cjs",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "dynamic-filters"
+  ],
+  "license": "MIT",
+  "description": "Dynamic filter component system assessment built with React 18, TypeScript, Vite, and Material UI.",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^9.0.1",
+    "@mui/x-date-pickers": "^9.3.0",
+    "date-fns": "^4.3.0",
+    "lucide-react": "^1.16.0",
+    "mock-json-api": "^0.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.29",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "concurrently": "^9.2.1",
+    "typescript": "^6.0.3",
+    "vite": "^6.4.2"
+  }
+}
