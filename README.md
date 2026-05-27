@@ -115,3 +115,4 @@ The frontend fetches from `/api/employees`, and Vite proxies that request to the
 
 - The build has been verified with `npm run build`.
 - The production bundle is somewhat large because Material UI and date picker dependencies are included together. If needed, this can be optimized further with code splitting.
+"# dynamic-filter-component-system" 
