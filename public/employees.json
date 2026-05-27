@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "name": "John Smith",
+    "email": "john.smith@company.com",
+    "department": "Engineering",
+    "role": "Senior Developer",
+    "salary": 97786,
+    "joinDate": "2019-01-07",
+    "isActive": false,
+    "skills": [
+      "Figma",
+      "GraphQL",
+      "Product Strategy"
+    ],
+    "address": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "projects": 1,
+    "lastReview": "2023-02-07",
+    "performanceRating": 3.1
+  },
+  {
+    "id": 2,
+    "name": "Jane Taylor",
+    "email": "jane.taylor@company.com",
+    "department": "Product",
+    "role": "Product Manager",
+    "salary": 85693,
+    "joinDate": "2020-06-15",
+    "isActive": true,
+    "skills": [
+      "Figma",
+      "React",
+      "Data Analysis"
+    ],
+    "address": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "projects": 3,
+    "lastReview": "2024-01-10",
+    "performanceRating": 4.2
+  },
+  {
+    "id": 3,
+    "name": "Robert Johnson",
+    "email": "robert.johnson@company.com",
+    "department": "Engineering",
+    "role": "Backend Developer",
+    "salary": 89541,
+    "joinDate": "2019-03-20",
+    "isActive": true,
+    "skills": [
+      "Python",
+      "AWS",
+      "Docker"
+    ],
+    "address": {
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA"
+    },
+    "projects": 2,
+    "lastReview": "2024-02-14",
+    "performanceRating": 4.0
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "email": "emily.davis@company.com",
+    "department": "Marketing",
+    "role": "Marketing Manager",
+    "salary": 72450,
+    "joinDate": "2021-09-01",
+    "isActive": true,
+    "skills": [
+      "Analytics",
+      "Content Strategy",
+      "SEO"
+    ],
+    "address": {
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA"
+    },
+    "projects": 5,
+    "lastReview": "2023-12-05",
+    "performanceRating": 3.8
+  },
+  {
+    "id": 5,
+    "name": "Michael Wilson",
+    "email": "michael.wilson@company.com",
+    "department": "Sales",
+    "role": "Sales Executive",
+    "salary": 94275,
+    "joinDate": "2018-05-10",
+    "isActive": false,
+    "skills": [
+      "CRM",
+      "Business Development",
+      "Negotiation"
+    ],
+    "address": {
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA"
+    },
+    "projects": 8,
+    "lastReview": "2023-11-20",
+    "performanceRating": 3.5
+  }
+]
